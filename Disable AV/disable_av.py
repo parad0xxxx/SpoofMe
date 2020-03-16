@@ -1,2 +1,0 @@
-# todo:
-# disable AV, duh.
