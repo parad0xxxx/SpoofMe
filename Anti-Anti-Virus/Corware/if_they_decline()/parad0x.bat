@@ -1,9 +1,9 @@
 @echo off
 
-title Parad0xxxx Loves You
+title Your computer hates its self
 
-echo bye bye world.
-echo and hello nyan cat!
+echo Bye Bye world.
+echo and Hello Nyan Cat!
 
 echo UEsDBBQAAAAIAHV36kiQ6IfZcyEAAAA6AAAIAAAATUVNWi5leGXtew10U8e17kg6soUtjACbGGzi>x
 echo AxgMyD9Hlm1sY4JkW2AH/wjLP5BgB9k6RhKSjqIfbKcJyBgaqw65tM1NIJckNE1705Tcpi3JJWma>>x
